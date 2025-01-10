@@ -124,3 +124,25 @@ nav a{
 .cards p{
     color: gray;
 }
+
+/* Quote */
+.quotation{
+    background-color: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.quote{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position:top left;
+}
+
+q{
+    display: block;
+    padding: 30px 0;  
+}
+
+
+
