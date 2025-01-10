@@ -17,7 +17,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin: 10px auto;
+    margin: 50px auto;
 }
 
 nav a{
@@ -26,4 +26,39 @@ nav a{
     border: 1px solid;
     padding: 10px 20px;
     border-radius: 10px;
+}
+
+/* Banner Section Added */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #C6E4D6;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.banner h1{
+    padding: 20px 0;
+}
+
+.banner .info{
+    padding: 80px;
+}
+
+.banner .info button{
+    padding: 10px 20px;
+    background-color: #006A50;
+    color: white;
+    font-weight: bold;
+    font-family: "Fira Sans", serif;
+    border: none;
+    border-radius: 10px;
+}
+
+.banner img{
+    padding: 30px;
 }
