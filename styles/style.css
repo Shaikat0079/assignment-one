@@ -273,3 +273,20 @@ border-top-left-radius: 10px;
     margin: 20px 0;
 }
 
+/* Footer */
+
+footer{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer hr{
+    width: 100%;
+    margin: 10px 0;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
