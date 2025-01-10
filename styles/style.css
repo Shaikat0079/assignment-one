@@ -220,14 +220,56 @@ q {
   flex-direction: column;
   align-items: center;
 }
-input[type=text]{
+input[type="text"] {
+  margin: 20px 0;
+}
+
+.donation p {
+  margin: 20px 0;
+}
+
+.donation-two {
+  background-color: #c6e4d6;
+}
+
+/* News Letter */
+.news-letter {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+  background-color:#C6E4D6 ;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-form input[type="email"],
+.newsletter-form input[type="button"] {
+  width: 80%;
+  padding: 10px 20px;
+  border: none;
+  background-color: whitesmoke;
+  font-family: "Fira Sans", serif;
+
+}
+.newsletter-form input[type="email"]{
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+}
+
+.newsletter-form input[type="button"] {
+  width: 20%;
+  background-color: #006a50;
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.news-letter p{
     margin: 20px 0;
 }
 
-.donation p{
-    margin: 20px 0;
-}
-
-.donation-two{
-    background-color: #C6E4D6;
-}
