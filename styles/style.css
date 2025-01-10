@@ -10,15 +10,20 @@
     font-style: normal;
   }
 
+/* Nav Section */
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 nav a{
     color: green;
     text-decoration: none;
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
