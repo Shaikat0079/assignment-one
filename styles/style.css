@@ -1,176 +1,233 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .fira-sans-regular {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Nav Section */
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    margin: 50px auto;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto;
 }
 
-nav a{
-    color: green;
-    text-decoration: none;
-    border: 1px solid;
-    padding: 10px 20px;
-    border-radius: 10px;
+nav a {
+  color: green;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
 /* Banner Section Added */
 
-.banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    background-color: #C6E4D6;
-    padding: 50px;
-    border-radius: 30px;
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #c6e4d6;
+  padding: 50px;
+  border-radius: 30px;
 }
 
-.banner h1{
-    padding: 20px 0;
+.banner h1 {
+  padding: 20px 0;
 }
 
-.banner h4{
-    color: gray;
+.banner h4 {
+  color: gray;
 }
 
-.banner .info{
-    padding: 80px;
+.banner .info {
+  padding: 80px;
 }
 
-.banner .info button,.card-one button,.card-two button, .card-three button, .news{
-    padding: 10px 20px;
-    background-color: #006A50;
-    color: white;
-    font-weight: bold;
-    font-family: "Fira Sans", serif;
-    border: none;
-    border-radius: 10px;
+.banner .info button,
+.card-one button,
+.card-two button,
+.card-three button,
+.news,
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #006a50;
+  color: white;
+  font-weight: bold;
+  font-family: "Fira Sans", serif;
+  border: none;
+  border-radius: 10px;
 }
 
-.banner img{
-    padding: 30px;
+.banner img {
+  padding: 30px;
 }
 
 /* vision and card */
 
-.vision-cards{
-    width: 80%;
-    margin: 50px auto;
+.vision-cards {
+  width: 80%;
+  margin: 50px auto;
 }
 
-.vision{
-    margin: 40px 0;
+.vision {
+  margin: 40px 0;
 }
 
-.vision p{
-    margin: 20px 0;
-    color: gray;
+.vision p {
+  margin: 20px 0;
+  color: gray;
 }
-.cards{
-    display: flex;
-    gap: 30px;
-}
-
-.cards h4{
-    margin: 20px 0;
+.cards {
+  display: flex;
+  gap: 30px;
 }
 
-.cards button{
-    margin: 20px 0;
+.cards h4 {
+  margin: 20px 0;
 }
 
-.card-one,.card-two,.card-three{
-    background-color: #81b4fc65;
-    padding: 30px;
-    border-radius: 10px;
+.cards button {
+  margin: 20px 0;
 }
 
-.card-one button{
-    background-color: #5490F5;
+.card-one,
+.card-two,
+.card-three {
+  background-color: #81b4fc65;
+  padding: 30px;
+  border-radius: 10px;
 }
 
-.card-two{
-    background-color: #C6E4D6;
+.card-one button {
+  background-color: #5490f5;
 }
 
-.card-two button{
-    background-color: #09A15C;
+.card-two {
+  background-color: #c6e4d6;
 }
 
-.card-three{
-    background-color: #F7EBCF;
+.card-two button {
+  background-color: #09a15c;
 }
 
-.card-three button{
-    background-color: #FFC239;
+.card-three {
+  background-color: #f7ebcf;
 }
 
-.cards p{
-    color: gray;
+.card-three button {
+  background-color: #ffc239;
+}
+
+.cards p {
+  color: gray;
 }
 
 /* Quote */
-.quotation{
-    background-color: whitesmoke;
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
+.quotation {
+  background-color: whitesmoke;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
 }
-.quote{
-    background-image: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
-    background-position:top left;
+.quote {
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
-q{
-    display: block;
-    padding: 30px 0;  
+q {
+  display: block;
+  padding: 30px 0;
 }
 
 /* Recent News */
-.recent-news{
-    width: 80%;
-    margin: 40px auto;
+.recent-news {
+  width: 80%;
+  margin: 40px auto;
 }
 
-.recent-news p{
-    margin: 10px 0;
+.recent-news p {
+  margin: 10px 0;
 }
-.news-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin: 30px 0;
-    background-color: whitesmoke;
-    padding: 40px;
-    border-radius: 10px;
-}
-
-.news-info img{
-    width: 300px;
-    border-radius: 10px;
+.news-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 0;
+  background-color: whitesmoke;
+  padding: 40px;
+  border-radius: 10px;
 }
 
-.info img{
-    width: 134px;
+.news-info img {
+  width: 300px;
+  border-radius: 10px;
 }
 
+.info img {
+  width: 134px;
+}
 
+/* Donation Section */
+
+.donation {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.donation-cards {
+  margin: 20px 0;
+}
+
+.donation-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.donation-cards button {
+  padding: 30px;
+  border: none;
+  font-size: 25px;
+  border-radius: 10px;
+}
+#amount {
+  width: 90%;
+  text-align: center;
+  font-family: "Fira Sans", serif;
+  padding: 10px 0;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.donation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input[type=text]{
+    margin: 20px 0;
+}
+
+.donation p{
+    margin: 20px 0;
+}
+
+.donation-two{
+    background-color: #C6E4D6;
+}
