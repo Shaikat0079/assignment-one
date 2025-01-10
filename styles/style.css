@@ -290,3 +290,15 @@ footer hr{
     display: flex;
     gap: 20px;
 }
+
+.banner .info button:hover,
+.card-one button:hover,
+.card-two button:hover,
+.card-three button:hover,
+.news:hover,
+input[type="submit"]:hover,
+.newsletter-form input[type="button"]:hover,
+.donation-two:hover {
+  background-color: red;
+  cursor: pointer;
+}
