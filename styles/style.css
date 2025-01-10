@@ -45,11 +45,15 @@ nav a{
     padding: 20px 0;
 }
 
+.banner h4{
+    color: gray;
+}
+
 .banner .info{
     padding: 80px;
 }
 
-.banner .info button{
+.banner .info button,.card-one button,.card-two button, .card-three button{
     padding: 10px 20px;
     background-color: #006A50;
     color: white;
@@ -61,4 +65,62 @@ nav a{
 
 .banner img{
     padding: 30px;
+}
+
+/* vision and card */
+
+.vision-cards{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.vision{
+    margin: 40px 0;
+}
+
+.vision p{
+    margin: 20px 0;
+    color: gray;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+.cards h4{
+    margin: 20px 0;
+}
+
+.cards button{
+    margin: 20px 0;
+}
+
+.card-one,.card-two,.card-three{
+    background-color: #81b4fc65;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.card-one button{
+    background-color: #5490F5;
+}
+
+.card-two{
+    background-color: #C6E4D6;
+}
+
+.card-two button{
+    background-color: #09A15C;
+}
+
+.card-three{
+    background-color: #F7EBCF;
+}
+
+.card-three button{
+    background-color: #FFC239;
+}
+
+.cards p{
+    color: gray;
 }
